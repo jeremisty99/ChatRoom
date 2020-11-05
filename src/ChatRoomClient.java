@@ -284,7 +284,7 @@ public class ChatRoomClient {
                 System.out.println(len);
             }
             JButton ButtonFile = new JButton(file.getName());
-            ButtonFile.setIcon(new ImageIcon("D:\\Code\\java\\Java实验\\实验七\\src\\file.png"));
+            ButtonFile.setIcon(new ImageIcon("D:\\Code\\java\\Java实验\\ChatRoom\\src\\file.png"));
             ButtonFile.setBackground(Color.white);
             ButtonFile.addActionListener(new AbstractAction() {
                 @Override
@@ -480,7 +480,7 @@ public class ChatRoomClient {
         // 单击图片按钮时事件
         ButtonPicture.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                JFileChooser F = new JFileChooser(new File("D:\\Code\\java\\Java实验\\实验七\\src"));
+                JFileChooser F = new JFileChooser(new File("D:\\Code\\java\\Java实验\\ChatRoom\\src"));
                 F.setFileFilter(new FileFilter() {
                     @Override
                     public boolean accept(File f) {
